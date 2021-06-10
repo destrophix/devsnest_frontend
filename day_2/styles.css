@@ -1,0 +1,8 @@
+body{
+    background-color: beige;
+}
+span {
+    border-bottom: 3px solid chartreuse;
+    display: inline-block;
+    line-height: 0.5;
+}

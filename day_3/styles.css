@@ -1,0 +1,28 @@
+fieldset{
+    margin: 0 400px;
+    border-color: rgba(0, 0, 255, 0.541);
+    color: rgb(0, 108, 250);
+    padding: 90px 0;
+    
+}
+
+legend{
+    text-align: center;
+    padding: 0 150px;
+}
+
+div {
+    /* background-color: beige; */
+    padding-left: 50px;
+    width: 400px;
+    background-color: beige;
+    display: inline-block;
+
+}
+
+/* #column-1{
+    border-right: 2px solid rgba(9, 116, 255, 0.863);
+    width: 40%;
+    padding-right: 10px;
+} */
+
