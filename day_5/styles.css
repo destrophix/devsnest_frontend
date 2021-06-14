@@ -1,0 +1,21 @@
+#stopwatch{
+    padding-top: 20px;
+    width: 700px;
+    height: 250px;
+    background-color: tomato;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    color: palegreen;
+}
+
+#timer{
+    font-size: 30px;
+    color:;
+}
+
+button{
+    font-size: 20px;
+}
