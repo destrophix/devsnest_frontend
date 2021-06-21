@@ -10,5 +10,5 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 5. [stopwatch](https://js-project-stopwatch.netlify.app/)
 6. [arrays_sheet](https://github.com/Amit-R-Bhagat/devsnest_frontend/blob/main/day_6/array.js)
 7. [objects_sheet](https://github.com/Amit-R-Bhagat/devsnest_frontend/blob/main/day_7/objects.js)
-8. [grid_coloring](https://https://js-grid-coloring.netlify.app/)
+8. [grid_coloring](https://js-grid-coloring.netlify.app/)
 
