@@ -11,9 +11,6 @@
       overflow: hidden;
     background: #fff;
     color: #333;
-      font-family: 'Open Sans', Helvetica, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
       display: flex;
       flex-wrap: wrap;
       /* background-color: rgb(206, 23, 48); */
