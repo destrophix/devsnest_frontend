@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+.seating_info{
+    text-align: center;
+    margin: 50px 0;
+}
+span{
+    margin: 50px;
+    font-size: 20px;
+    color: blue;
+}
+.box {
+    width: 90vw;
+    margin: auto;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seat{
+    box-sizing: border-box;
+    width: 15vw;
+    height: 100px;
+    background-color:rgba(165, 42, 42, 0.808);
+    border: 2px solid rgb(248, 167, 74);
+}
+
+.booked{
+    background-color: brown;
+    color: rgb(251, 209, 91);
+}
