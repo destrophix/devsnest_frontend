@@ -11,4 +11,5 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 6. [arrays_sheet](https://github.com/Amit-R-Bhagat/devsnest_frontend/blob/main/day_6/array.js)
 7. [objects_sheet](https://github.com/Amit-R-Bhagat/devsnest_frontend/blob/main/day_7/objects.js)
 8. [grid_coloring](https://js-grid-coloring.netlify.app/)
+9. [seating_arrangement](https://js-seating-arrangement.netlify.app/)
 
