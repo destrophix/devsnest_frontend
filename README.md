@@ -1,5 +1,5 @@
 # Frontend
-This repo contains daily projects/assignments that I do under the devesnest frontend module.
+This repo contains daily projects/assignments that I do under the devesnest frontend module..
 
 ## THAs
 ------------------

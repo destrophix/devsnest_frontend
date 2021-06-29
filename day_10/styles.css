@@ -1,0 +1,18 @@
+.content{
+    width: 60vw;
+    height: 600px;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 15vw;
+    height: 200px;
+    background-image: url(images/favicon_logo_45.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    border: 2px solid yellow;
+}
