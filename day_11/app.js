@@ -8,11 +8,29 @@ const question = [
 
 let score =0;
 
+function shuffle(arr){
+    for(let i = 0; i< arr.length; i++){
+        let index = Math.floor(Math.random()* (i+1))
+        temp = arr[i]
+        arr[i] = arr[index]
+        arr[index] = temp
+    }
+}
+
+function reveal(option){
+    const options = option.closest('.options')
+    let temp = score;
+    options.querySelectorAll('button').forEach((button)=>{
+        button.click()
+    })
+    score = temp;
+}
+
 function createOption(option, answer=false){
     const optionHolder = document.createElement('div');
     optionHolder.className = "option";
     const button = document.createElement('button');
-
+    button.innerHTML = option;
     button.addEventListener('click',()=>{
         if(answer){
             if(!button.classList.contains('correct')){
@@ -23,32 +41,38 @@ function createOption(option, answer=false){
             button.classList.add('wrong');
 
         }
+        reveal(button);
     })
 
-    optionHolder.append()
+    optionHolder.append(button)
+    return optionHolder
 }
 
-question.forEach((item,index)=>{
-    console.log(item,index);
+shuffle(question)
+
+question.forEach((current,number)=>{
     const container = document.createElement('div');
     container.className= "container";
     
     const question = document.createElement('div');
     question.className="question";
 
-    question.innerHTML = `${index+1}. ${item.question}`;
+    question.innerHTML = `${number+1}. ${current.question}`;
     container.append(question);
+
     const options = document.createElement('div');
     options.className="options";
 
     const optionArr = [];
-    item.options.forEach((option,index)=>{
-        if(index==0){
+    current.options.forEach((option,number)=>{
+        if(number==0){
             optionArr.push(createOption(option,true));
         }else{
             optionArr.push(createOption(option));
         }
     })
+
+    shuffle(optionArr);
 
     optionArr.forEach((option)=>{
         options.append(option);
@@ -58,4 +82,9 @@ question.forEach((item,index)=>{
 
     document.body.append(container);
 
+})
+
+const showresult = document.querySelector('.result');
+showresult.addEventListener('click',()=>{
+    showresult.innerHTML = `${score}/${question.length}`
 })
