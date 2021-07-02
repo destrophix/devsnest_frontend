@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/47c49cd00e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body onload="gettodos()">
+    <div class="app">
+        <div class="container">
+            <h1>Todo-List <i class="fa fa-plus" aria-hidden="true"></i></h1>
+            <input id="todo-input" type="text" placeholder="Add a to-do" onkeypress="addTodo(event)"> 
+            <ul id="todo-container">
+                <li>
+                    <span><i class="fa fa-trash"></i></span>
+                    THA 12
+    
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    background-color: #f7f7f7;
+
+}
+
+.fa-plus {
+    float: right;
+}
+
+h1 {
+    background-color: #2980b9;
+    padding: 10px;
+    color: white;
+
+}
+
+#todo-input {
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+#todo-input:focus {
+    outline: none;
+    border: 2px solid #2980b9;
+    background-color: #fff;
+}
+
+li {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+span {
+    background-color: #e74c3c;
+    padding: 10px;
+    color: white;
+    display: none;
+    margin-right: 20px;
+}
+
+li:hover {
+    padding: 10px 0px;
+}
+
+li:hover span{
+    display: inline;
+}
+
+.completed {
+    text-decoration: line-through;
+}
