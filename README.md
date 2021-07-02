@@ -13,4 +13,4 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 8. [grid_coloring](https://js-grid-coloring.netlify.app/)
 9. [seating_arrangement](https://js-seating-arrangement.netlify.app/)
 10. [memory_game](https://memory-game-with-js.netlify.app/)
-
+11. [quiz](https://js-quiz-game.netlify.app/)
