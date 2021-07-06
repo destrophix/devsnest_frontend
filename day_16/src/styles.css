@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+}
+.card {
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: auto;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
+
+.board {
+    border: 18px solid black;
+    padding: 2px;
+    
+    margin: auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-gap: 2px;
+    margin: 2px;
+
+}
+
+.square{
+    height: 25px;
+    width: 25px;
+    /* background-color: black; */
+}
+
+.row:nth-child(even) .square:nth-child(even) {
+    background: black;
+  }
+  .row:nth-child(odd) .square:nth-child(odd) {
+    background: black;
+  }
