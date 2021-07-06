@@ -15,3 +15,5 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 10. [memory_game](https://memory-game-with-js.netlify.app/)
 11. [quiz](https://js-quiz-game.netlify.app/)
 12. [todo-App](https://todo-app-in-js.netlify.app/)
+13. [Quotes-api](https://quotes-api-project.netlify.app/)
+14. [Events](https://events-in-js.netlify.app/)
