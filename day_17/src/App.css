@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  padding: 20px;
+}
+
+.header h1{
+  text-align: center;
+}
+.instructions {
+  padding: 20px;
+}
+
+.container{
+  width: 550px;
+}
+.title{
+  text-align: center;
+  margin: 10px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  overflow-y: scroll;
+  height: 400px;
+  background-color: beige;
+}
+.card {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: #6B8E23;
+  border-radius: 8px;
+}
+
+.card h1,h3{
+  margin: 5px;
+}
+
+
