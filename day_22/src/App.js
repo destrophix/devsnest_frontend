@@ -6,9 +6,6 @@ import './App.css';
 function App() {
   const [templates, setTemplates] = useState([]);
   let [meme,setMeme] = useState(null);
-  const [name,setName] = useState("amit");
-  const [rollno,setRollno] = useState(34);
-  
   useEffect(()=>{
     fetch("https://api.imgflip.com/get_memes")
     .then(res => res.json())
