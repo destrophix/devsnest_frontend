@@ -25,3 +25,4 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 20. [Calorie-modified](https://confident-meninsky-91eb5a.netlify.app/)  
 21. [Calorie-consumed](https://quirky-montalcini-8d3530.netlify.app/)
 22. [Meme Generator](https://romantic-pike-7e37cc.netlify.app/)
+23. [Custom Hooks](https://romantic-goldstine-b2c9bf.netlify.app/)
