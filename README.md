@@ -29,3 +29,4 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 24. [Context](https://adoring-turing-8be611.netlify.app/)
 25. [React-Bootstarp](https://keen-curran-79894c.netlify.app/)
 26. [Redux](https://clever-nightingale-fd4080.netlify.app/)
+27. [Middleware](https://mystifying-goldstine-9c069f.netlify.app/)
