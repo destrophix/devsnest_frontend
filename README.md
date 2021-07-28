@@ -1,8 +1,11 @@
 # Frontend
+
 This repo contains daily projects/assignments that I do under the devesnest frontend module..
 
 ## THAs
-------------------
+
+---
+
 1. [letter](https://letter-html.netlify.app/)
 2. [styled_letter](https://styled-letter.netlify.app/)
 3. [mock_resume](https://phantom-resume.netlify.app)
@@ -22,7 +25,7 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 17. [Calorie-info](https://boring-hugle-785a68.netlify.app/)
 18. [Chessboard](https://kind-brattain-4c5ad0.netlify.app/)
 19. [Counter](https://nostalgic-mahavira-887455.netlify.app/)
-20. [Calorie-modified](https://confident-meninsky-91eb5a.netlify.app/)  
+20. [Calorie-modified](https://confident-meninsky-91eb5a.netlify.app/)
 21. [Calorie-consumed](https://quirky-montalcini-8d3530.netlify.app/)
 22. [Meme Generator](https://romantic-pike-7e37cc.netlify.app/)
 23. [Custom Hooks](https://romantic-goldstine-b2c9bf.netlify.app/)
@@ -30,3 +33,4 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 25. [React-Bootstarp](https://keen-curran-79894c.netlify.app/)
 26. [Redux](https://clever-nightingale-fd4080.netlify.app/)
 27. [Middleware](https://mystifying-goldstine-9c069f.netlify.app/)
+28. [Weather-Api](https://modest-pike-659295.netlify.app/)
