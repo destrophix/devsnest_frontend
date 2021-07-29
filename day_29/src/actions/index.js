@@ -22,7 +22,7 @@ const setLoading = (load) => {
 const getPlaceData = (place) => {
   return (dispatch) => {
     fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=d9714335618d4d118ab45619212807&q=${place}`
+      `https://api.weatherapi.com/v1/forecast.json?key=d9714335618d4d118ab45619212807&q=${place}`
     )
       .then((res) => {
         return res.json();

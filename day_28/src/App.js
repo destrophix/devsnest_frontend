@@ -11,7 +11,7 @@ function App() {
   function fetchData() {
     setLoading(true);
     fetch(
-      `http://api.weatherapi.com/v1/current.json?key=d9714335618d4d118ab45619212807&q=${value}`
+      `https://api.weatherapi.com/v1/current.json?key=d9714335618d4d118ab45619212807&q=${value}`
     )
       .then((res) => {
         return res.json();
