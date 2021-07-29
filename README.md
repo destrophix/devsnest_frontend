@@ -33,4 +33,5 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 25. [React-Bootstarp](https://keen-curran-79894c.netlify.app/)
 26. [Redux](https://clever-nightingale-fd4080.netlify.app/)
 27. [Middleware](https://mystifying-goldstine-9c069f.netlify.app/)
-28. [Weather-Api](https://modest-pike-659295.netlify.app/)
+28. [Weather-Api](https://upbeat-ptolemy-62f1bc.netlify.app/)
+29. [Weather-Api-with-Redux](https://ecstatic-noether-864cbc.netlify.app/)
