@@ -37,3 +37,4 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 29. [Weather-Api-with-Redux](https://ecstatic-noether-864cbc.netlify.app/)
 30. [E-commerce Project I](https://objective-leakey-4cd995.netlify.app/)
 31. [E-commerce Project II](https://objective-leakey-4cd995.netlify.app/)
+32. [Typescript Basics](https://github.com/Amit-R-Bhagat/devsnest_frontend/tree/main/day_32)
