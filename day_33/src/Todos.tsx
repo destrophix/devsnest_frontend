@@ -10,13 +10,22 @@ interface TodoType {
 
 const Todos = () => {
   const [todos, setTodos] = useState<TodoType[]>([]);
-  const { theme, setTheme } = useContext<ThemeContextType>(ThemeContext);
+  const { theme } = useContext<ThemeContextType>(ThemeContext);
+  const [input, setInput] = useState<string>("");
 
   return (
     <div className={theme ? "todos dark" : "todos"}>
+      <input
+        type="text"
+        value={input}
+        onChange={(e) => {
+          setInput(e.target.value);
+        }}
+      ></input>
       <button
         onClick={() => {
-          setTodos([...todos, { title: "learn react", done: false }]);
+          setTodos([...todos, { title: input, done: false }]);
+          setInput("");
         }}
       >
         Add todos

@@ -22,9 +22,16 @@
 .todos {
   width: 100%;
   height: 100vh;
+  text-align: center;
 }
 
 .todos.dark {
   background-color: black;
   color: white;
+}
+
+.todos button,
+input {
+  padding: 5px;
+  margin: 20px 10px;
 }
