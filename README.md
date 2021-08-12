@@ -38,3 +38,4 @@ This repo contains daily projects/assignments that I do under the devesnest fron
 30. [E-commerce Project I](https://objective-leakey-4cd995.netlify.app/)
 31. [E-commerce Project II](https://objective-leakey-4cd995.netlify.app/)
 32. [Typescript Basics](https://github.com/Amit-R-Bhagat/devsnest_frontend/tree/main/day_32)
+33. [Todo-Typescript](https://pedantic-engelbart-3a9ce8.netlify.app/)
