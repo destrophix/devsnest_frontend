@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 8px 6px 0;
+  position: sticky;
+  top: 0;
+  border: 0.5px solid rgb(230, 227, 227);
+}
+
+.nav {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav input {
+  height: 1.5rem;
+  font-size: 0.8rem;
+  padding: 2px;
+  border-radius: 3px;
+  border: 0.2px solid black;
+}
+
+.nav input:focus {
+  border: 0.2px solid black;
+}
+
+.nav .options {
+  margin-left: 10px;
+}
+
+.nav .options .option {
+  margin: 0 10px;
+}
+
+.nav .options .profile {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+/* Landing page */
+.landing {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+}
+
+.content {
+  width: 60%;
+}
+
+/* Stories */
+.stories {
+  width: 100%;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  white-space: nowrap;
+  overflow-x: auto;
+  border: 0.5px solid rgb(230, 227, 227);
+}
+
+.stories::-webkit-scrollbar {
+  display: none;
+}
+
+.stories img {
+  height: 56px;
+  width: 56px;
+  margin: 2px 4px;
+  border-radius: 50%;
+  border: 3px solid #e34e77;
+}
+
+/* Posts */
+
+.posts {
+  width: 100%;
+}
+
+.post {
+  margin: 20px 0;
+  border: 0.5px solid rgb(230, 227, 227);
+}
+
+.post h3 {
+  padding: 15px;
+}
+.post img {
+  width: 100%;
+  height: 600px;
+}
+
+.post .options {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post .options img {
+  height: 24px;
+  width: 24px;
+  margin: 0 5px;
+}
+
+/* suggestion */
+.suggestion {
+  width: 40%;
+  padding: 8px 20px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.userInfo .user {
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+.userInfo img {
+  height: 56px;
+  width: 56px;
+  margin: 2px 0px;
+  border-radius: 50%;
+}
+.suggested {
+  margin: 10px 0;
+  font-size: smaller;
+}
