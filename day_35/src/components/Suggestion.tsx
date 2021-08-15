@@ -7,7 +7,7 @@ const Suggestion = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getUser());
-  }, []);
+  }, [dispatch]);
   return (
     <div className="suggestion">
       <div className="userInfo">

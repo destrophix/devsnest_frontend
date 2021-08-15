@@ -5,9 +5,12 @@ import { getUser } from "../actions";
 const Navbar = () => {
   const user: any = useSelector<any>((state) => state.user);
   const dispatch = useDispatch();
+
   useEffect(() => {
+    console.log("loaded");
+
     dispatch(getUser());
-  }, []);
+  }, [dispatch]);
   return (
     <div className="navbar">
       <div className="nav">

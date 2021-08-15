@@ -12,7 +12,7 @@ body {
 .navbar {
   width: 100%;
   background-color: #ffffff;
-  padding: 8px 6px 0;
+  padding: 10px 0;
   position: sticky;
   top: 0;
   border: 0.5px solid rgb(230, 227, 227);
@@ -29,12 +29,13 @@ body {
   height: 1.5rem;
   font-size: 0.8rem;
   padding: 2px;
+  background-color: #f5f1f1;
   border-radius: 3px;
-  border: 0.2px solid black;
+  border: 0.5px solid rgb(230, 227, 227);
 }
 
 .nav input:focus {
-  border: 0.2px solid black;
+  outline: none;
 }
 
 .nav .options {
@@ -54,7 +55,7 @@ body {
 /* Landing page */
 .landing {
   width: 60%;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 10px 0;
   display: flex;
 }
@@ -114,6 +115,33 @@ body {
   height: 24px;
   width: 24px;
   margin: 0 5px;
+}
+
+.post .reaction {
+  margin: 8px 15px;
+}
+
+.post .comments {
+  display: flex;
+  align-items: center;
+}
+
+.post .comments img {
+  height: 24px;
+  width: 24px;
+  margin: 15px;
+}
+.post .comments input {
+  width: 80%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+}
+.post .comments input:focus {
+  outline: none;
+}
+.post .comments button {
+  width: 10%;
 }
 
 /* suggestion */
